@@ -43,6 +43,7 @@ body {
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
+
 	img {
 		border: 20px solid white;
 		border-radius: 50%;
@@ -50,6 +51,12 @@ body {
 		margin-bottom: -15% !important;
 		width: 30%;
 	}
+	
+	.center {
+		display: block;
+		margin: 0 auto;
+	  }
+
 	.name {
 		text-align: center;
 		font-size: 2.8em;
