@@ -23,46 +23,54 @@
          </div>
       </div>
       <ul>
-         <li><span class="text_color">CI/CD</span><br> - практика по автоматизации сборки, тестирования и развертывания
-            приложений ["Continuous Integration / Continuous Deployment"]</li>
+         <li><span class="text_color">CI/CD</span><br>
+            <span class="secondary__text_color">[Continuous Integration/Continuous Deployment]</span>
+            <br>- практика по автоматизации сборки, тестирования и развертывания
+            приложений</li>
          <hr>
-         <li><span class="text_color">DevOps</span><br> - набор процессов и инструментов, которые помогают наладить
-            технологические процессы и взаимодействие специалистов внутри команды ["Development & Operations"]</li>
+         <li><span class="text_color">DevOps</span><br>
+            <span class="secondary__text_color">[Development & Operations]</span>
+            <br>- набор процессов и инструментов, которые помогают наладить
+            технологические процессы и взаимодействие специалистов внутри команды</li>
          <hr>
-         <li><span class="text_color">CI</span><br> - процесс автоматического сбора кода из разных источников (например,
-            Git-репозиториев), выполнения тестов и сборки приложения ["Continuous Integration"]</li>
+         <li><span class="text_color">CI</span><br>
+            <span class="secondary__text_color">[Continuous Integration]</span>
+            <br>- процесс автоматического сбора кода из разных источников (например,
+            Git-репозиториев), выполнения тестов и сборки приложения</li>
          <hr>
-         <li><span class="text_color">CD</span><br> - процесс автоматического развертывания приложения на различных
-            стадиях, включая тестовые, стейджинг и продакшен-среды ["Continuous Deployment/Delivery"]</li>
+         <li><span class="text_color">CD</span><br> 
+            <span class="secondary__text_color">[Continuous Deployment/Delivery]</span>
+            <br>- процесс автоматического развертывания приложения на различных
+            стадиях, включая тестовые, стейджинг и продакшен-среды</li>
       </ul>
 
       <p class="subtitle text_color">CI/CD включает семь этапов:</p>
       <ol>
-         <li><span class="text_color">Plan — планирование</span><br>На этом этапе планируют разработку и поставку
+         <li class="ol_li"><span class="text_color">Plan — планирование</span><br>На этом этапе планируют разработку и поставку
             приложения, определяют требования и задачи проекта, распределяют ресурсы команды и ставят цели.</li>
-         <li>
+         <li class="ol_li">
             <hr><span class="text_color">Code — написание кода</span><br>Разработчики пишут код для каждой части
             программного продукта и создают его функционал, комментируют и документируют код, проводят ревью кода.
          </li>
-         <li>
+         <li class="ol_li">
             <hr><span class="text_color">Build — сборка</span><br>Система контроля версий собирает программный
             продукт из написанного кода, используя средства автоматической сборки; создает исполняемые файлы или
             пакеты для установки приложения.
          </li>
-         <li>
+         <li class="ol_li">
             <hr><span class="text_color">Test — тестирование</span><br>Тестировщики проверяют собранный продукт. Они
             проводят разные виды тестирования, в том числе автоматизированное.
          </li>
-         <li>
+         <li class="ol_li">
             <hr><span class="text_color">Release — релиз</span><br>Команда создает установочные пакеты, подписывает
             их цифровыми сертификатами и отдает продукт на проверку заказчику или тестовой группе пользователей. Если
             в продукте находят ошибки, то его отправляют на доработку.
          </li>
-         <li>
+         <li class="ol_li">
             <hr><span class="text_color">Deploy — развертывание</span><br>Программное обеспечение устанавливается на
             реальной или тестовой среде, чтобы заказчики и конечные пользователи могли пользоваться продуктом.
          </li>
-         <li>
+         <li class="ol_li">
             <hr><span class="text_color">Operate — эксплуатация</span><br>Продукт используется. Разработчики
             проверяют работу продукта, оптимизируют его производительность, обрабатывают возникающие ошибки,
             анализируют пользовательский опыт и планируют доработки продукта и разработку нового функционала.
@@ -70,6 +78,16 @@
          <br>
          <img class="center ci_cd_plan" src="../img/ci_cd_plan.webp" alt="ci cd structure"><br><br><br><br>
          <br>
+         <h3 id="rt-0" class="secondary__text_color">Инструменты</h3>
+         <ul>
+            <li class="none_li_decoration"><span class="text_color">Jenkins</span><br>- инструмент для автоматизации сборки, тестирования и развертывания приложений</li><br>
+            <li class="none_li_decoration"><span class="text_color">Docker</span><br>- платформа для управления контейнерами, которая позволяет легко создавать, развертывать и запускать приложения в изолированных средах</li><hr>
+            <p class="secondary__text_color center">Основные понятия Docker:</p><hr>
+            <ul>
+               <li class="none_li_decoration"><span class="text_color">Docker Image</span><br>- набор приложений, библиотек со всеми зависимостями и настройками, из которого разворачивается контейнер</li><br>
+               <li class="none_li_decoration"><span class="text_color">Docker Container</span><br>- работающие приложение, созданное на базе Docker Image</li><br>
+            </ul>
+         </ul>
       </ol>
 
    </div>

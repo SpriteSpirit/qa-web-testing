@@ -396,7 +396,7 @@ ol li {
 	counter-increment: item;
 }
 
-ol li::marker {
+.ol_li::marker {
 	margin-bottom: 5px;
 	font-weight: 200;
 	font-style: normal;
@@ -411,6 +411,11 @@ li::marker {
 	font-style: normal;
 	content: ">>>  ";
 	color: rgb(142, 98, 225);
+}
+
+.none_li_decoration::marker {
+	padding-left: 0px;
+	content: none;
 }
 
 .text_color {
@@ -465,4 +470,10 @@ li::marker {
 .ci_cd_plan {
 	border-radius: 0%;
 	width: 80%;
+}
+
+hr {
+	height: 1.5px;
+	background-color: rgb(151, 133, 157);
+	width: auto;
 }
