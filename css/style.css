@@ -412,6 +412,10 @@ li::marker {
 	content: "";
 }
 
+.no_marker {
+	padding-left: 110px;
+}
+
 .logo-header {
 	display: flex;
 	align-items: flex-end;
@@ -436,7 +440,6 @@ li::marker {
 	flex: 1 0 auto;
 	/* Основной контент растягивается, чтобы занять все оставшееся пространство */
 }
-
 
 
 .footer_index {
